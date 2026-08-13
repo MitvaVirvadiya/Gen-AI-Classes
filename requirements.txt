@@ -1,0 +1,11 @@
+# Install what a lesson asks for. Early lessons only need the Python stdlib.
+# Track 1 (from-scratch) extras:
+numpy>=1.26
+tiktoken>=0.7
+tokenizers>=0.19
+transformers>=4.44
+torch>=2.3
+
+# Contrast demo only (linguistic NLP, not LLM tokenization):
+# spacy>=3.7
+# python -m spacy download en_core_web_sm
