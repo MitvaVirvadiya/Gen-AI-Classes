@@ -37,7 +37,6 @@ python 01-llms-from-scratch/01-tokenization/code/04_use_trained_bpe.py
    - `你好`
    - `def foo(x):`
    - `😀`
-
 9. A page of English is often ~500–800 tokens, not ~300 words. Why are
    those numbers different?
 
@@ -69,28 +68,16 @@ python 01-llms-from-scratch/01-tokenization/code/04_use_trained_bpe.py
 
 ## My answers
 
+1. converts words, sentences into tokens
+2. first - more tokens in use, second - same meaning words counted as seprate token
+3. bytes can make tokens library size huge
+4. as tokens are models vocabulary it must be synced
+5. 40 merges trained, first is l + 0, dont knwo why it was paired
+6. ['low</w>', 'lower</w>', 'new', 'est</w>', 'wid', 'est</w>']
+7. it had a lot of token IDs for a single word its bug
+8. ​​😀
+9. becuase words count doesn't mean token count 
+10. the one with cl100k_base or o200k_base
+11. vocab size increase and decearse with change in num merge
+
 <!-- write below -->
-
-1.
-
-2.
-
-3.
-
-4.
-
-5.
-
-6.
-
-7.
-
-8.
-
-9.
-
-10.
-
-11.
-
-12.

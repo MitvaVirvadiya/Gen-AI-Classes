@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 DATA = HERE.parent / "data" / "tiny_corpus.txt"
 ART = HERE.parent / "artifacts"
-NUM_MERGES = 40
+NUM_MERGES = 80
 
 
 def word_freqs(text: str) -> Counter[str]:
